@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import Image from 'next/image'
 
 import Head from '@/components/Head'
+import placeholderImage from '@/images/josh-withers-UnKqaCtnHwE-unsplash.jpg'
 
 export default function Home({}) {
   return (
@@ -25,7 +26,17 @@ export default function Home({}) {
             </code>
           </p>
         </div>
-        
+
+        <div className={'max-w-lg'}>
+          <Image
+            src={placeholderImage}
+            alt=""
+            layout="responsive"
+            priority
+          />
+          <p>Image by <a href={'https://unsplash.com/@joshwithers'} className={'underline hover:no-underline'}>Josh Withers</a></p>
+        </div>
+
       </main>
 
     </div>
