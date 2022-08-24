@@ -1,8 +1,6 @@
 import { NextPage } from 'next'
-import Image from 'next/image'
 
 import Head from '@/components/Head'
-import placeholderImage from '@/images/josh-withers-UnKqaCtnHwE-unsplash.jpg'
 
 export default function Home({}) {
   return (
@@ -28,11 +26,9 @@ export default function Home({}) {
         </div>
 
         <div className={'max-w-lg'}>
-          <Image
-            src={placeholderImage}
-            alt=""
-            layout="responsive"
-            priority
+          <img
+            src='/images/josh-withers-UnKqaCtnHwE-unsplash.jpg'
+            alt='mountain valley filled with trees with a river flowing through it with strong current'
           />
           <p>Image by <a href={'https://unsplash.com/@joshwithers'} className={'underline hover:no-underline'}>Josh Withers</a></p>
         </div>
