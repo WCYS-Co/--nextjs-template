@@ -2,7 +2,7 @@ import { NextPage } from 'next'
 
 import Head from '@/components/Head'
 
-export default function Home({}) {
+export default function Home() {
   return (
     <div className={'flex flex-col min-h-screen'}>
       <Head title={'Untitled'} />
