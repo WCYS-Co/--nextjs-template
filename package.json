@@ -13,7 +13,7 @@
     "clsx": "^1.1.1",
     "focus-visible": "^5.2.0",
     "next": "12.2.5",
-    "postcss-focus-visible": "^6.0.4",
+    "postcss-focus-visible": "^8.0.0",
     "react": "18.2.0",
     "react-aria": "^3.16.0",
     "react-dom": "18.2.0",
